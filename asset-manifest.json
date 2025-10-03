@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pft-2-end-test-for-mental-yoga-2025f/static/css/main.4e02f517.css",
+    "main.js": "/pft-2-end-test-for-mental-yoga-2025f/static/js/main.ca180311.js",
+    "index.html": "/pft-2-end-test-for-mental-yoga-2025f/index.html",
+    "main.4e02f517.css.map": "/pft-2-end-test-for-mental-yoga-2025f/static/css/main.4e02f517.css.map",
+    "main.ca180311.js.map": "/pft-2-end-test-for-mental-yoga-2025f/static/js/main.ca180311.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e02f517.css",
+    "static/js/main.ca180311.js"
+  ]
+}
