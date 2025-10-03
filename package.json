@@ -2,7 +2,7 @@
   "name": "paper-folding-tester",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://schenck-lab.github.io/pft-2-end-test-for-tangram-2025f",
+  "homepage": "https://schenck-lab.github.io/pft-2-end-test-for-mental-yoga-2025f",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -16,17 +16,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build -b gh-pages -r https://github.com/Schenck-Lab/pft-2-end-test-for-tangram-2025f.git",
-  "deploy:lab": "gh-pages -d build -b gh-pages -r https://github.com/Schenck-Lab/pft-2-end-test-for-tangram-2025f.git",
-
-  "postbuild": "cp build/index.html build/404.html || (powershell -Command \"Copy-Item build/index.html build/404.html\")"
-    },
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b gh-pages -r https://github.com/Schenck-Lab/pft-2-end-test-for-mental-yoga-2025f.git",
+    "deploy:lab": "gh-pages -d build -b gh-pages -r https://github.com/Schenck-Lab/pft-2-end-test-for-mental-yoga-2025f.git",
+    "postbuild": "cp build/index.html build/404.html || (powershell -Command \"Copy-Item build/index.html build/404.html\")"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
