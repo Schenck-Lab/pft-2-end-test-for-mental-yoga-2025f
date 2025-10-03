@@ -8,7 +8,7 @@ import { PAGE_ID, OBJ_LIST, formatTime } from '../constants/config';
 
 function TestInstruction() {
 
-    const { APP_STAGE, APP_COMP, setCurrComp, stageRef, 
+    const { APP_STAGE, APP_COMP, setCurrComp, stageRef, objHoverOn,
         egSid, backCheckingInstruction, csvDataBuf, mousePosRef,
         setTimeupVisible, timeStamps,
     } = useTestContext();
@@ -99,6 +99,7 @@ function TestInstruction() {
 
         setCurrComp(APP_COMP.test);
         backCheckingInstruction.current = false;
+        objHoverOn.current = 'none';
     }
 
     const buttonLabel = (stageRef.current === APP_STAGE.instruction) ?
