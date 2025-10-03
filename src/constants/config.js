@@ -1,6 +1,6 @@
 
 // Google App Script | Web app URL
-const webAppKey = 'AKfycbzoZeOGDpFj63A5KJ034_U14O6laSg0U9ycIfCf23-arnECM4_GGywbkV3YDvqJzbuQLQ';
+const webAppKey = 'AKfycbxwiTfu6LMLicSMZgT27kwQ8ZN-SpQGJqDhf294C6Ioz0TyDeHA61yLrdyMHRZjU-Tf';
 
 export const GAS_URL = `https://script.google.com/macros/s/${webAppKey}/exec`;
 export const ACTION = {
